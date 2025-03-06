@@ -1,0 +1,11 @@
+<div class="hero-detail" *ngIf="hero">
+  <div class="hero-detail__id">Selected hero ID is: {{ hero.id }}</div>
+  <div>
+    <label for="heroName">Selected hero name: </label>
+    <input type="text" id="heroName" name="heroName" [(ngModel)]="hero.name" />
+  </div>
+  <div>
+    <button (click)="saveHero()">Save</button>
+    <button (click)="goBack()">Back</button>
+  </div>
+</div>

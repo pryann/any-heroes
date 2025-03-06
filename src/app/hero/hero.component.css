@@ -1,0 +1,30 @@
+.heroes__list {
+  list-stlyle-type: none;
+  padding: 0;
+  width: 300px;
+}
+
+.heroes__item {
+  display: flex;
+  margin: 0.5rem;
+}
+
+.hero__link {
+  color: black;
+  display: flex;
+  flex: 1;
+  text-decoration: none;
+}
+
+.hero__id {
+  font-weight: bolder;
+  padding: 0 1rem 0 0;
+  width: 2rem;
+}
+
+.hero__remove-button {
+  border: 1px solid red;
+  border-radius: 0;
+  cursor: pointer;
+  color: red;
+}
