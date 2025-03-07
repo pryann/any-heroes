@@ -3,8 +3,12 @@
 }
 
 .nav__link {
-  color: black;
+  color: var(--dark-color);
   text-decoration: none;
   display: inline-block;
   margin-right: 1rem;
+}
+
+.nav__link:hover {
+  color: var(--primary-color);
 }

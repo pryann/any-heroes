@@ -1,4 +1,13 @@
 /* Global style */
+:root {
+  --primary-color: #007bff;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --danger-color: #dc3545;
+  --light-color: #fff;
+  --dark-color: #000;
+  --gray-color: #ccc;
+}
 
 html {
   font-size: 16px;
@@ -20,4 +29,15 @@ h6 {
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  overflow: auto;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: 500;
 }

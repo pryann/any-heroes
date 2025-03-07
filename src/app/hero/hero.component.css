@@ -1,16 +1,17 @@
 .heroes__list {
   list-stlyle-type: none;
   padding: 0;
-  width: 300px;
 }
 
 .heroes__item {
   display: flex;
   margin: 0.5rem;
+  border-bottom: 1px solid var(--gray-color);
+  padding: 0 0 0.5rem 0;
 }
 
 .hero__link {
-  color: black;
+  color: var(--dark-color);
   display: flex;
   flex: 1;
   text-decoration: none;
@@ -23,8 +24,21 @@
 }
 
 .hero__remove-button {
-  border: 1px solid red;
+  border: 1px solid var(--danger-color);
   border-radius: 0;
   cursor: pointer;
-  color: red;
+  color: var(--danger-color);
+}
+
+.heroes__form__input {
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.heroes__form__add-button {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--light-color);
+  padding: 0.25rem 1rem;
+  cursor: pointer;
 }

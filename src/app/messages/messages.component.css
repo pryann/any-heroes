@@ -1,10 +1,10 @@
 .messages {
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--gray-color);
   margin: 1rem 0 0 0;
 }
 
 .messages__text {
   font-style: italic;
-  color: rgb(94, 94, 216);
+  color: var(--info-color);
 }

@@ -4,8 +4,18 @@
     <h2>Create new hero</h2>
     <form #newHeroForm>
       <label for="newHero">Hero name:</label>
-      <input type="text" id="newHero" name="newHero" #heroName />
-      <button type="button" (click)="add(heroName.value, newHeroForm)">
+      <input
+        class="heroes__form__input"
+        type="text"
+        id="newHero"
+        name="newHero"
+        #heroName
+      />
+      <button
+        class="heroes__form__add-button"
+        type="button"
+        (click)="add(heroName.value, newHeroForm)"
+      >
         Add
       </button>
     </form>
